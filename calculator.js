@@ -1,7 +1,7 @@
 function clicar(){    
         var num1 = document.getElementById("n1")
         var num2 = document.getElementById("n2")
-        var op = document.getElementById("operacoes").value
+        var op = document.getElementById("operation").value
 
         var n1 = Number(num1.value)
         var n2 = Number(num2.value)
@@ -21,5 +21,5 @@ function clicar(){
             if (op == "/")
                     res.innerHTML = `${n1} and ${n2} will have as a result ${di}`
             if (op == "*")
-                    res.innerHTML = `${n1} and ${n2} will have as a result ${ex}`
+                    res.innerHTML = `${n1} and ${n2} will have as a result ${mul}`
 }
