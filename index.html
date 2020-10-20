@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <header>
+        Simple Calculator
+    </header>
+    <section>
+        <div>
+                <p>Write a number</p>
+            <p><input type="number" id="n1"></p>
+            
+        <div>
+            <p>Select the operation:</p>
+            <p><select id="operacoes">
+                <option value="+" id="plus"> +
+                <option value="-" id="less"> -
+                <option value="^" id="exp"> ^
+                <option value="/" id="div"> /
+                <option value="*" id="mult"> *
+                </select>
+        </div>
+                <p>Write a number</p>
+            <p><input type="number" name="" id="n2"></p>
+
+            <input type="button" value="Send" onclick="clicar()">
+        <div id="res">
+                <p>Loading...</p>
+        </div>
+    </section>
+    <footer>
+    <p><strong>&copy;bernardo.villanovaa@gmail.com</strong></p>
+    </footer>
+    <script src="calculator.js"></script>
+</body>
+</html>
